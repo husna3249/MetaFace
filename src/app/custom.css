@@ -1,0 +1,15 @@
+
+.backstyle {
+    background:linear-gradient(black, rgb(95, 95, 222))
+     
+ 
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .mar {
+    margin-top: 20px;
+  }
+  
