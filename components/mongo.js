@@ -1,6 +1,6 @@
 import axios from "axios";
-const mongokey= 'zUwb8NVzZM7eaBGl0rQ82VBp9t5GHHft41qxSjyHpBp9FCsJB0c8kqd20BW9x1qc';
-const mongourl='https://ap-south-1.aws.data.mongodb-api.com/app/data-vmanf/endpoint/data/v1/action/';
+const mongokey= '_mongo private key';
+const mongourl='https:// /app/-///v1/action/';
 
 const mongoheader={
     "Content-Type": "application/json",

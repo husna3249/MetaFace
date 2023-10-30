@@ -81,9 +81,9 @@ export async function getAccount(){
     return 'no user found'
  }
  else{
-    const userurl = 'http://192.168.0.160:8080/ipfs/' + usercid[0];
+    const userurl = 'http://***.***.***.***:****/ipfs/' + usercid[0];
     const piccid=  await userctr._picture(userwallet);
-    const picurl= 'http://192.168.0.160:8080/ipfs/'+ piccid;
+    const picurl= 'http://***.***.***.***:****/ipfs/'+ piccid;
     const paywallet = usercid[2];
     const balance = await tokenctr.balanceOf(paywallet);
     return{userurl,picurl,balance};

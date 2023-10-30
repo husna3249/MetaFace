@@ -71,7 +71,7 @@ const tokenbalformat = await convertWeiToEth(tokenbalance);
  
 getBalance(tokenbalformat);
 const picurl= userdata.picurl;
- if(picurl== 'http://192.168.0.160:8080/ipfs/'){
+ if(picurl== 'http://***.***.**.*.****/ipfs/'){
 getFileUrl('ipfs.png')
  }
  else{
